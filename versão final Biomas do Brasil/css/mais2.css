@@ -1,0 +1,127 @@
+
+        body {
+            background-color: #20a7d8;
+            margin: auto;
+            
+        }
+        main {
+            background-color: #156796;
+            margin: 20px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+        }
+        .box1 {
+            background-color: white;
+            display: flex;
+            padding: 5px;
+            border-radius: 10px;
+            flex-direction: column;
+            width: 100%;
+            max-width: 600px;
+        }
+        .titulo2 {
+            background-color: black;
+            color: #0ffff8;
+            padding: 5px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 500px;
+            text-align: center;
+            margin: auto;
+        }
+        .pai1 {
+            display: flex;
+            gap: 10px;
+            width: 90%;
+            max-width: 800px;
+            flex-flow: column wrap;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        .box {
+            background-color: black;
+            display: flex;
+            padding: 5px;
+            border-radius: 15px 50px;
+            flex-direction: column;
+            width: 90%;
+            max-width: 400px;
+            color: white;
+            text-align: center;
+        }
+        .box2 {
+            background-color: white;
+            display: flex;
+            padding: 5px;
+            border-radius: 10px;
+            flex-direction: column;
+            width: 100%;
+            max-width: 600px;
+        }
+        .formus {
+            background-color: black;
+            padding: 5px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 200px;
+            height: 100px;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .form1 {
+            background-color: white;
+            width: 90%;
+            max-width: 125px;
+            padding: 5px;
+            gap: 5px;
+            display: flex;
+            flex-direction: column;
+            margin: 5px;
+            border-radius: 10px;
+            height: 50px;
+            text-align: center;
+            justify-content: center;
+        }
+        a {
+            color: #433872;
+            text-decoration: none;
+        }
+        .form1:hover {
+            background-color: #78767b;
+            width: 80%;
+            max-width: 100px;
+        }
+        a:hover {
+            color: #00d4ff;
+        }
+        @media (max-width: 768px) {
+            main{
+                margin: 10px;
+                padding: 15px;
+            }
+            .titulo {
+                width: 100%;
+                font-size: 18px;
+            }
+            .pai1 {
+                width: 100%;
+            }
+            .box, .box1, .box2 {
+                width: 100%;
+            }
+            .formus {
+                width: 100%;
+            }
+        }
+    

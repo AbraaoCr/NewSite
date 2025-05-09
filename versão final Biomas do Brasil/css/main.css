@@ -1,0 +1,164 @@
+
+body {
+    background-color: #65a30d;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    background-color: #3f6212;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: white;
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.p1 {
+    color: black;
+    margin: 5px;
+}
+
+p {
+    font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+.Legenda {
+    color: white;
+}
+.Legenda3 {
+    color: black;
+    margin: 5px;
+}
+
+
+a {
+    color: #16a34a;
+    text-decoration: none;
+}
+.am2 { color: #017d3f; }
+.ca2 { color: #f7b800; }
+.ce2 { color: #e75e16; }
+.ma2 { color: #bad379; }
+.pam2 { color: #6c419d; }
+.pan2 { color: #d6081e; }
+
+
+.texto, .mapa, .vid {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.mapa, .vid {
+    width: 50%;
+}
+
+.titulo2, .titulo3, .titulo4 {
+    color: #a3e635;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: auto;
+    margin: 5px;
+}
+
+
+.video {
+    margin: 5px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    height: auto;
+    display: flex;
+}
+
+.video iframe {
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+}
+
+
+.mapinha {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.mapeleg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.legen {
+    background-color: black;
+    margin: 5px;
+    width: 75%;
+    max-width: 600px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+
+.pags {
+    display: flex;
+    color: #a3e635;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    border: 5px solid white;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+.pags-borda {
+    border-color: black;
+}
+
+
+.colado {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .colado {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mapa, .vid {
+        width: 90%;
+    }
+
+    .pags {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.vid {
+    width: 60%; 
+    min-height: 300px;
+    padding: 5px; 
+}
+
+.video iframe {
+    width: 100%;
+    height: 315px; 
+    min-height: 250px;
+}

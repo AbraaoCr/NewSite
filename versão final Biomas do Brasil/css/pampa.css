@@ -1,0 +1,43 @@
+body {
+
+    background-size: cover;
+    background-position: center;
+  background-color: #6c419d;
+  margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1 {
+    text-align: center;
+    color: orange;
+}
+
+h2 {
+    text-align: center;
+    color: orange;
+}
+
+h3 {
+    color: orange;
+}
+
+p {
+    text-align: justify;
+    font-size: larger;
+    color: white;
+}
+main{
+    background-color: rgba(0, 0, 0, 0.60);;
+    padding: 200px;
+    border-radius: 50px;
+
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+img{
+    width: 73%;
+    
+}

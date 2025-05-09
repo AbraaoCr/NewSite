@@ -1,0 +1,53 @@
+h2 {
+    color: orange;
+  }
+
+  h1 {
+    text-align: center;
+    color: orange;
+  }
+
+  h3 {
+    color: orange;
+  }
+
+  footer {
+    color: white;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+  }
+
+  main,
+  footer {
+    background-color: rgba(0, 0, 0, 0.60);
+    margin: 20px;
+    padding: 20px;
+  }
+
+  body {
+    background-color: aqua;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  p {
+    text-align: justify;
+    color: aliceblue;
+  }
+
+  main{
+    background-color: rgba(0, 0, 0, 0.60);;
+    padding: 200px;
+    border-radius: 50px;
+
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+img{
+    width: 73%;
+    
+}

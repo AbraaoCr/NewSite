@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biomas Brasileiros</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/cabeçalho.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navegacao">
+            <h1 class="titulo">Biomas do Brasil</h1>
+            <div class="menu-hamburguer">&#9776;</div>
+            <ul>
+                <li><a href="index.html">INÍCIO</a></li>
+                <li><a href="mais.html">SOBRE NÓS</a></li>
+                <li><a href="amazonia.html">AMAZÔNIA</a></li>
+                <li><a href="cerrado.html">CERRADO</a></li>
+                <li><a href="mata_atlantica.html">MATA ATLÂNTICA</a></li>
+                <li><a href="caatinga.html">CAATINGA</a></li>
+                <li><a href="pantanal.html">PANTANAL</a></li>
+                <li><a href="pampa.html">PAMPA</a></li>
+            </ul>
+            <div>
+                <a href="cadastro.html">CADASTRAR</a>
+                <br>
+                <a href="login.html">LOGAR</a>
+            </div>
+        </nav>
+    </header>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const menuHamburguer = document.querySelector('.menu-hamburguer');
+            const navegacao = document.querySelector('.navegacao');
+            
+            menuHamburguer.addEventListener('click', function() {
+                navegacao.classList.toggle('active');
+            });
+        });
+    </script>
+    <br>
+
+    <main style="text-align: justify;">
+        <div class="texto">
+            <h2 class="titulo2"> O que é um Bioma? </h2>
+
+            <p class="p1">"Bioma é um recorte do espaço geográfico que apresenta alguns aspectos físicos em comum, tais
+                como
+                o clima, a vegetaçã
+                o, o relevo, a hidrografia, a geologia e o solo. Segundo o Instituto Brasileiro de Geografia e
+                Estatística
+                (IBGE), o
+                bioma é “um conjunto de vida vegetal e animal, constituído pelo agrupamento de tipos de vegetação
+                contíguos
+                e que podem ser identificados a nível regional
+                , com condições de geologia e clima semelhantes e que, historicamente, sofreram os
+                mesmos processos de formação da paisagem, resultando em uma diversidade de flora e fauna própria.” Esse
+                termo provém
+                do grego Bio = vida e Oma = grupo ou massa. Para alguns autores, foi utilizado pela primeira vez por
+                Shelford. Para
+                outros, o termo foi criado por Clements."<br> Fonte:
+                <a href="https://brasilescola.uol.com.br/o-que-e/biologia/o-que-e-bioma.htm">
+                    brasilescola.uol.com.br</a> <br>
+            </p>
+        </div>
+
+        <br>
+        <div class="colado">
+            <div class="mapa">
+
+                <h2 class="titulo3">Mapa - Biomas Do Brasil.</h2>
+                <div class="mapeleg">
+                    <img class="mapinha" src="img/img-index/biomas_brasileiros_1-removebg-preview.png" alt="">
+                    <div class="legen">
+
+                        <p class="Legenda" style="text-align: center;">
+
+                            <strong style="color:#a3e635 ;">Legenda:</strong>
+                            <br>
+                        </p>
+                        <div>
+                            <a class="am2" href="amazonia.html"><i class="fa-solid fa-circle"></i> <b> AMAZÔNIA
+                                </b></a><br>
+                            <a class="ce2" href="cerrado.html"><i class="fa-solid fa-circle"></i> <b> CERRADO
+                                </b></a><br>
+                            <a class="ma2" href="mata_atlântica.html"><i class="fa-solid fa-circle"></i> <b> MATA
+                                    ATLÂNTICA
+                                </b></a><br>
+                            <a class="ca2" href="caatinga.html"><i class="fa-solid fa-circle"></i> <b> CAATINGA
+                                </b></a><br>
+                            <a class="pan2" href="Pantanal.html"><i class="fa-solid fa-circle"></i> <b> PANTANAL
+                                </b></a><br>
+                            <a class="pam2" href="pampa.html"><i class="fa-solid fa-circle"></i> <b> PAMPA </b></a><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="fonte2">
+
+                    <p style="color: black;"> <b>Fonte: </b><a
+                            href="http://3.bp.blogspot.com/_k3PG6CW7u9g/TEx2VGFoedI/AAAAAAAAAyg/4uogdYNcN8E/s1600/biomas+brasileiros+1.jpg">http://3.bp.blogspot.com</a>
+                    </p>
+                </div>
+
+            </div>
+            <BR></BR>
+            <div class="vid">
+                <h2 class="titulo4">Video Informativo.</h2>
+                <br>
+                <div class="video">
+                    <iframe width=" 100%" height=" 100%"
+                        src="https://www.youtube.com/embed/uHYgh89B67w?si=TRvvEH-1BiH1_hZ6" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="Legenda3">
+                <p> <b>Fonte: </b>
+                    <a href="https://www.youtube.com/watch?v=uHYgh89B67w"> canal IBGE no yotube</a>
+                </p>
+        </div>
+        </div>
+        </div>
+        
+    </main>
+    <br>
+    <footer>Biblioteca Online &copy; 2024 - Lazzaro, Endrell, Abraão e Ícaro</footer>
+
+
+
+
+</body>
+
+</html>
